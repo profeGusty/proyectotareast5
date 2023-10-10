@@ -65,13 +65,13 @@ const listaTareas = () => {
       <div class="tasks flex">
         <span class="">${item.title}</span>
         <div class="conte_buttons">
-        <span class="edit fas fa-edit" data-id=${item.id}></span>
         <span class="fas fa-trash-alt delete " data-id=${item.id}></span>
         </div>
-      </div>
-      `)
-    )
-    //sino mostramos un mensaje en consola o pantalla 
+        </div>
+        `)
+        )
+        //sino mostramos un mensaje en consola o pantalla 
+        //<span class="edit fas fa-edit" data-id=${item.id}></span>
   } else {
     console.log('no hay datos para mostrar pe :S')
   }
