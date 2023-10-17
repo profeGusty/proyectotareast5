@@ -56,7 +56,7 @@ label {
   cursor: pointer;
 }
 .conte_list__task {
-  height: 400px;
+  height: 300px;
   overflow-y: scroll;
 }
 .buttons {
