@@ -32,18 +32,7 @@ const agregarTarea = (e) => {
       title_task.value = "";
 
       listaTareas();
-      // swal(
-      //   'Se Registro Correctamente!',
-      //   '',
-      //   'success'
-      // )
-      // return;
     }
-    // swal(
-    //   'Error Campos Vacios!',
-    //   '',
-    //   'error'
-    // )
   }
 };
 
@@ -100,39 +89,5 @@ const borrarTarea = (e) => {
     guardarTarea();
     //volvemos a llenar el contenedor con la nueva lista
     listaTareas();
-
-    // swal(
-    //   'Se Elimino Correctamente!',
-    //   '',
-    //   'success'
-    // )
-    // return;
   }
 };
-
-// const EdiTask = (e) => {
-//   let idTask = e.target.dataset.id
-//   if (e.target.classList.contains("edit")) {
-//     if (title_task.value !== '') {
-//       const newTask = { id: Date.now(), title: title_task.value, };
-//       const ediTask = ArrayTask.map(task => task.id === Number(idTask) ? newTask : task)
-//       ArrayTask = ediTask
-//       SaveTask();
-//       ListTask();
-//       title_task.value = ''
-//       swal(
-//         'Editado Correctamente!',
-//         '',
-//         'success'
-//       )
-//       return;
-//     }
-//     swal(
-//       'Error Campos Vacio!',
-//       '',
-//       'error'
-//     )
-//   }
-// }
-
-
